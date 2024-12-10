@@ -4,7 +4,7 @@ pipeline {
         jdk 'JDK19'
     }
     environment {
-        JAVA_HOME = 'C:\Program Files\Microsoft\jdk-19'
+        JAVA_HOME = 'C:\\Program Files\\Microsoft\\jdk-19'
     }
     stages {
         stage('Compile Stage') {
